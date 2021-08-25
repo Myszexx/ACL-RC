@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#menu {
+    background-image: url("img/ACL-RC.png");
+    display: block;
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+}
+
+#start_menu {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 70%;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+#start_menu:hover {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 70%;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background: rgb(163, 209, 161);
+}
+
+#cava {
+    display: none;
+    margin: auto;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+
+#czas {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    width: 100vw;
+    text-align: center;
+}
+
+#lap {
+    display: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+#leaderboard {
+    display: none;
+    width: 1440px;
+    height: 900px;
+    border: 1px red solid;
+    margin: auto;
+    font-size: 100px;
+    text-align: center;
+}
+
+#lead_button {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 70px;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+#lead_button:hover {
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 70px;
+    font-size: 30px;
+    width: 120px;
+    border-radius: 5px;
+    background: rgb(163, 209, 161);
+}
+
+#race_menu {
+    display: none;
+}
+
+#Download {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    left: 50px;
+    font-size: 30px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+#Download:hover {
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    left: 50px;
+    font-size: 30px;
+    width: 170px;
+    border-radius: 5px;
+    background: rgb(163, 209, 161);
+}
